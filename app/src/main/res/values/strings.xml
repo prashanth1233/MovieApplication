@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieApplication</string>
+    <string name="releaseTitle">ReleaseDate</string>
+    <string name="viewsTitle">Number of Views</string>
+</resources>

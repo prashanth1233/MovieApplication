@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:context="com.example.prasanth.movieapplication.activities.TextActivity">
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/movieImage"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/subTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/movieTitle"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/releaseTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/releaseTitle"
+            android:layout_below="@+id/subTitle"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/releaseDate"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/releaseTitle"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewsTitle"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/releaseDate"/>
+
+        <TextView
+            android:id="@+id/popularity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/views"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+</ScrollView >
